@@ -1,0 +1,399 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: #0a183d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .nav-link {
+    color: var(--white-color);
+    font-size: 16px;
+  }
+
+.white{color: white;}
+
+:root{
+    --white-color: #ffffff;
+  }
+
+.nav-little{
+    color: #606d79;
+    padding-top: 9px;
+    padding-left: 26px;
+}
+.navbar-brand{font-size: 30px;}
+
+#title {  color: #f72061;  }
+.main-title{  
+  color: #f72061; 
+  font-weight: bold;
+}
+
+.display-4{ 
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.navBtn{border-radius: 50px;}
+
+.color{ color: whitesmoke;  }
+
+.pricing{color: whitesmoke;}
+
+.box { 
+  background: #fff;
+  text-align: center;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.downloadColor {
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f72061;
+  background: #f8f8f8;
+}
+
+.smallTitle{
+  font-size: 36px;
+  color: #f72061;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.downloadColor {
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f72061;
+  background: #f8f8f8;
+}
+
+.smallTitle{
+  font-size: 36px;
+  color: #f72061;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.listBottom {
+  padding-bottom: 16px;
+}
+
+.download {
+  margin: 20px -20px -20px -20px;
+  padding: 20px 15px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+
+
+.pricing ul i {
+  color: #f72061;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+
+ .deleteEffect {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+ .buy {
+  color: whitesmoke;
+  background: #f72061;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  padding: 8px 35px 10px 35px;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 400;
+  font-weight: 600;
+  transition: none;
+  
+}
+
+.buy:hover {
+  color: whitesmoke;
+  background-color: #f72061;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 105px;
+  box-shadow: 0 9px #999;
+}
+
+ .readBg {
+  color: #fff;
+  background: #f72061;
+}
+
+ .ultimate {
+  background: #f72061;
+  color: #fff;
+  position: absolute;
+  width: 200px;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+ 
+}
+
+/* **************************************************************************** */
+
+
+.textNews{ margin-left: 20px;}
+
+.sizeNews{ 
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.newsWandH{
+  height: 100%;
+  width: 100%;
+}
+
+/************************************************************************************/
+
+
+ .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.resize_image { width: 180px;}
+
+.redTeam{ color: #f72061; }
+
+.info-padding { padding-left: 30px;}
+
+ .testTeam {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #0a183d;
+}
+
+.lineTeam {
+  display: flex;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+
+.form{
+  color: #f72061;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.TitleSize{font-size: 70px;}
+
+
+/************************************************************************************/
+
+.btnSearch {
+  background-color: #f72061;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btnSearch:hover {
+  background-color: #0a183d;
+  color: whitesmoke;
+}
+
+
+.icon-container>.fas {
+  font-size: 200%;
+  color: var(--red-color);
+  border-radius: 8px;
+  border: 2px solid var(--red-color);
+  padding: 16px;
+  cursor: pointer;
+}
+
+.icon-container:hover>.fas{
+  color: var(--white-color);
+  background-color: var(--red-color);
+}
+
+.big-icon {
+  font-size: 200%;
+  color: var(--red-color);
+}
+.musicTitle{font-size: 45px;}
+.bi{font-size: 60px;}
+.heightTeam{ font-size: 60px;}
+
+
+/************************************************************************************/
+
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.spacing {
+  max-width: 18rem;
+}
+
+.picutreSizeReviews {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+
+
+.titleRev{
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/*********************************************************************************************/
+
+.refCardWidth{
+  width: 15rem;
+  height: 8rem;
+}
+
+.imageOurMission {
+  height: 60%;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.pointerMission {
+  cursor: pointer;
+}
+
+
+#sdfafg {
+  z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
+
+}
+
+div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff url("../img/preloader.gif") no-repeat center center;
+  background-color: #000;
+  animation: shake 2.5s infinite;
+}
+
+/***********************************************************************************/
+
+
+.pads {
+  display: flex;
+}
+
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+.pad1 {background: #5dd27f;}
+.pad2 {background: #2d84de;}
+.pad3 {background: #f8b96a;}
+.pad4 {background: #fa783d;}
+.pad5 {background: #7074c7;}
+.pad6 {background: #f72061;}
+
+.visual > div {
+  height: 50px;
+  width: 50px;
+  bottom: 0%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/*   buble position    */
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 80%;
+    left: 40%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
+}
+
+/*         text slide           */
+.intro-text{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.9s all ease-in-out;
+}
+
+.intro-apper{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
+
+
+
+
+ 
+
+
+
